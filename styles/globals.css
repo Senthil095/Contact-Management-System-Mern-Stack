@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to right, #4facfe, #00f2fe); /* Gradient background */
+  color: #ffffff; /* White text */
+  cursor: default; /* Default cursor style */
+}
+
+button {
+  cursor: pointer; /* Pointer cursor for buttons */
+}
+
+input, textarea, select {
+  cursor: text; /* Text cursor for input fields */
+}
+
+a {
+  cursor: pointer; /* Pointer cursor for links */
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
